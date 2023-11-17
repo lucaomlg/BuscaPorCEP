@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BuscaPorCEP</name>
+    </assembly>
+    <members>
+        <member name="T:BuscaPorCEP.Calculadora">
+            <summary>
+             Métodos de uma calculadora
+            </summary>
+        </member>
+        <member name="M:BuscaPorCEP.Calculadora.Subtrai(System.Int32,System.Int32)">
+            <summary>
+            Subtrai dos números
+            </summary>
+            <param name="a">parâmetro 1</param>
+            <param name="b">parâmetro 2</param>
+            <returns>subtração retornada</returns>
+        </member>
+        <member name="M:BuscaPorCEP.Calculadora.Soma(System.Int32,System.Int32)">
+            <summary>
+            Soma dois números
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BuscaPorCEP.Calculadora.Multiplica(System.Int32,System.Int32)">
+            <summary>
+            Multiplica dois números
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BuscaPorCEP.Calculadora.Divide(System.Int32,System.Int32)">
+            <summary>
+            Divide dois números
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BuscaPorCEP.Calculadora.Teste">
+            <summary>
+             Exemplo retornando um valor da configuração (appsettings.json, cmdline, ...)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BuscaPorCEP.Program">
+            <summary>
+            Classe de programa padrão para criação da aplicação.
+            As configurações do 'builder' e 'app' estão no appsettings.json, que
+            é incorporado no executável da aplicação. Configurações padrão estão
+            incluídas nas DLLs das bibliotecas (Hot.DLL e HotAPI.DLL)
+            </summary>
+        </member>
+        <member name="M:BuscaPorCEP.Program.Main(System.String[])">
+            <summary>
+            Método 'main' padrão da HotAPI
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>
